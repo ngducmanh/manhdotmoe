@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export function Nav() {
@@ -14,6 +15,9 @@ export function Nav() {
             Blog
           </Link>
           <Link href="/about">About</Link>
+          <Link href="https://github.com/mekagojira/manhdotmoe" target="_blank">
+            <Image alt="Github" width={24} height={24} src="/github.png" />
+          </Link>
         </nav>
       </header>
     </div>
