@@ -11,7 +11,7 @@ export function Nav() {
           </Link>
         </div>
         <nav className="flex items-center gap-4">
-          <Link href="https://github.com/mekagojira/blog/discussions" target="_blank">
+          <Link href="https://blog.manh.moe" target="_blank">
             Blog
           </Link>
           <Link href="/about">About</Link>
